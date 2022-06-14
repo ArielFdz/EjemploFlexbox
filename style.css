@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.contenedor img{
+    max-width: 280px;
+    padding: 4px;
+    padding-top: 10px;
+    border-radius: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.contenedor img:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.imagenLarga{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagenLarga img{
+    min-width: 1400px;
+    border-radius: 5px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.imagenLarga img:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+
+
